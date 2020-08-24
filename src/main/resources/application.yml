@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: micronautMultipartBug
+  security:
+    enabled: true
+    authentication: bearer
+    token:
+      jwt:
+        enabled: true
+    endpoints:
+      login:
+        enabled: true
